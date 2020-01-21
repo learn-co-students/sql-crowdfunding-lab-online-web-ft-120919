@@ -1,0 +1,70 @@
+INSERT INTO users (name, age) VALUES 
+("Alice", 50),
+("Anie", 54),
+("Catherine", 55),
+("Chandra", 50),
+("David", 60),
+("Daniel", 54),
+("Elizabeth", 65),
+("Emma", 25),
+("Frank", 30),
+("Fatima", 25),
+("George", 30),
+("Gracie", 42),
+("Harriet", 32),
+("Henry", 37),
+("Ivan", 70),
+("Iris", 45),
+("James", 49),
+("Janaki", 34),
+("Kate", 54),
+("Krishna", 25);
+
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
+("Boxer Rescue", "dogs", 10000, 2020-01-02, 2020-01-10),
+("Animal Shelter", "animal", 5000,2020-01-03, 2020-01-11),
+("Austin Symphony", "music", 4000, 2020-01-04, 2020-01-12),
+("Public News Station", "news", 7000, 2020-01-05, 2020-01-13),
+("The Last Bookstore", "books", 3000, 2020-01-06, 2020-01-14),
+("The Church Of all Religions", "religion", 6000, 2020-01-07, 2020-01-15),
+("Treatment for Children", "Health", 8000, 2020-01-08, 2020-01-16),
+("The Farmer's Market", "food", 3000, 2020-01-09, 2020-01-17),
+("Birds Santuary", "animal", 1000, 2020-01-10, 2020-01-18),
+("Food Bank", "food", 5000, 2020-01-11, 2020-01-19);
+
+ INSERT INTO pledges (amount,user_id, project_id) VALUES 
+ (1000, 2, 7 ),
+ (1000, 18, 1),
+ (100, 5, 3),
+ (500,1, 6),
+ (1500, 4, 2),
+ (50, 20, 9),
+ (400, 3, 4),
+ (700, 8, 5),
+ (80, 6, 8),
+ (400, 7, 10),
+ (3000, 9, 1),
+ (1000, 10, 2),
+ (500, 11, 3), 
+ (200, 12, 4), 
+ (100, 13, 5), 
+ (300, 14, 6), 
+ (200, 15, 7), 
+ (600, 16, 8), 
+ (750, 17, 9), 
+ (650, 18, 10), 
+ (800, 19, 1), 
+ (850, 20, 2), 
+ (250, 1, 3), 
+ (350, 2, 4), 
+ (150, 3, 5), 
+ (950, 4, 6), 
+ (750, 5, 7), 
+ (25, 6, 8), 
+ (55, 7, 9), 
+ (650, 8, 10);
+
+ 
+ 
+
+
